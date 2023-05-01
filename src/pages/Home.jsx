@@ -1,5 +1,6 @@
 import Container from "../components/Container";
 import Navbar from "../components/Navbar";
+import Slider from "../components/Slider";
 import bannerImg from "/images/banner.png"
 
 
@@ -12,12 +13,12 @@ const Home = () => {
             <Container>
                 <Navbar />  
                 <section className="text-white absolute top-[70px] flex  h-[80vh]">
-                    <div className="flex justify-center flex-col md:w-[30%]">
+                    <div className="flex justify-center flex-col md:w-[45%] pr-20">
                         <h2 className="text-[70px] font-bold whitespace-nowrap">Cox's bazar</h2>
                         <p>Cox's Bazar is a city, fishing port, tourism centre and district headquarters in southeastern Bangladesh. It is famous mostly for its long natural sandy beach, and it ...</p>
                     </div>
-                    <div className="w-[70%]">
-
+                    <div className="w-[55%] flex items-center h-[80vh] ">
+                        <Slider/>
                     </div>
                 </section>              
             </Container>
